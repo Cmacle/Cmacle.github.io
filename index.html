@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Project</title>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <ul id="LIST">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>First</li>
+
+        </ul>
+        <h1>Just an HTML page...</h1>
+        <script>
+            var List = document.getElementById("LIST");
+            var newItem = document.createElement('li');
+            newItem.innerText = "YO";
+            List.appendChild(newItem);
+            List.lastChild.style.color = "RED";
+
+        </script>
+    </body>
+</html>
