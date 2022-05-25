@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+  }
+     
+    head {
+      background-color: #F1F1F1;
+      text-align: center;
+      padding: 20px;
+      
+    }
+    Body {
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      line-height: 1.5;
+      background-image: url(../img/notebookpage.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }  
+    h1 {
+      font-weight: bold;vccfcdx'p[;lmmkl'
+      ---------------------------------------200]
+      color: #F2FF00;
+      font-size: 95px;
+      text-shadow: -5px 5px 0 #aaa;
+      margin: 40px 60px;
+    }
+    h2 {
+      font-weight: bolder;
+      text-align: center;
+      color: #F2FF00;
+      font-size: 45px;
+      text-shadow: -5px 5px 0 #aaa;
+      margin: 5px 5px;
+    }
+  
+    h3 { 
+      font-family: 'Abolition Regular';
+      font-weight: bolder;
+      font-size: 45px; 
+      text-shadow: -5px 5px 0 #aaa, 0 0 1em grey; 
+      color: #F2FF00;
+      margin: 5px;
+    }
+  
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin:auto;
+      
+    }
+    
+    img {
+      border-radius: 50%
+      
+    }
+    
+    .paragraph {
+      text-align: center;
+      color: black;
+      font-size: 30px;
+      font-weight: bolder;
+      max-width: 900px;
+      padding: 15px;
+      margin: 0 auto;
+      hyphens: auto;
+      background-color: #F2FF00;
+      border-radius: 50px;
+      opacity: 0.8;
+      float: center;
+      column-count: 2;
+      
+    }
+      
+    
+    
+      
+    /* nav bar */ 
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(238, 255, 0);
+      border-radius: 8px;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(115, 255, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(172, 255, 64);
+    }
+   
+    
+      
+    
+      /*links */
+    a:link {
+      color: black;
+      font-size: 25px;
+    }
+    a:visited {
+      color: black;
+    }
+    a:hover {
+      color: #ff7300;
+    }
+  
+  /* get yours HERE button */
+    .button {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #F2FF00;
+      border: none;
+      color: black;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 15px;
+      
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+   
+    
+    footer {
+      font-size: 20px;
+      font-weight: bold;
+    }
+   
+    
