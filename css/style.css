@@ -1,39 +1,63 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
     head {
-      background-color: #F1F1F1;
+      background-color: #ffffff;
       text-align: center;
       padding: 20px;
-      
+
     }
     Body {
       font-family: 'Oswald', sans-serif;
       text-align: center;
       line-height: 1.5;
-      background-image: url(../img/notebookpage.jpg);
+      background-image: url(../img/background.png); 
       background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background: rgb(255,255,255);
-      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(179,205,236,1) 100%);
+      background-repeat: repeat;
     }  
-    .Name {
 
+
+    .Name {
+     
     }
     .AboutMe {
-
+      margin: auto;
+      padding: 20px px 40px;
+      max-width: 500px;
+      text-align: center;
+      background: rgb(212, 208, 208);
+      font-size: 20px;
+      border-radius: 6px
+    
     }
     .JobExperience {
+      margin: auto;
+      padding: 20px 40px 40px;
+      max-width: 500px;
+      text-align: center;
+      background: #fff;
+      
+      border-radius: 6px
+     
 
     }
     .Tech {
+      float: left;
+      width: 33.33%;
+      padding: 15px;
 
     }
     .Technician {
 
     }
     .Projects {
+      margin: auto;
+      padding: 20px 40px 40px;
+      max-width: 500px;
+      text-align: center;
+      background: #fff;
+      
+      border-radius: 6px
 
     }
     .Netherizer {
@@ -47,7 +71,7 @@
     }
     h1 {
       font-weight: bold;
-      color: #000e8f;
+      color: #000000;
       font-size: 95px;
       text-shadow: -5px 5px 0 #aaa;
       margin: 40px 60px;
@@ -55,19 +79,20 @@
     h2 {
       font-weight: bolder;
       text-align: center;
-      color: #1056c0;
+      color: #060607;
       font-size: 45px;
       text-shadow: -5px 5px 0 #aaa;
       margin: 5px 5px;
     }
   
     h3 { 
-      font-family: 'Abolition Regular';
+      font-family: 'sans-serif;'
       font-weight: bolder;
-      font-size: 45px; 
-      text-shadow: -5px 5px 0 #aaa, 0 0 1em grey; 
-      color: #1056c0;
+      font-size: 30px; 
+      color: #030303;
       margin: 5px;
+      display: grid;
+      grid-template-columns: auto auto auto;
     }
   
     .center {
@@ -78,118 +103,6 @@
       
     }
     
-    img {
-      border-radius: 1%
-      
-    }
-    
-    .paragraph {
-      text-align: center;
-      color: black;
-      font-size: 30px;
-      font-weight: bolder;
-      max-width: 900px;
-      padding: 15px;
-      margin: 0 auto;
-      hyphens: auto;
-      background-color: #dadbbf;
-      border-radius: 50px;
-      opacity: 0.8;
-      float: center;
-      column-count: 2;
-      
-    }
-      
-    
-    
-      
-    /* nav bar */ 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgb(238, 255, 0);
-      border-radius: 8px;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: rgb(115, 255, 0);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: rgb(172, 255, 64);
-    }
-   
-    
-      
-    
-      /*links */
-    a:link {
-      color: black;
-      font-size: 25px;
-    }
-    a:visited {
-      color: black;
-    }
-    a:hover {
-      color: #ff7300;
-    }
-  
-  /* get yours HERE button */
-    .button {
-      display: inline-block;
-      border-radius: 4px;
-      background-color: #F2FF00;
-      border: none;
-      color: black;
-      text-align: center;
-      font-size: 28px;
-      padding: 20px;
-      width: 200px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 15px;
-      
-    }
-    
-    .button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-    }
-    
-    .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-    
-    .button:hover span {
-      padding-right: 25px;
-    }
-    
-    .button:hover span:after {
-      opacity: 1;
-      right: 0;
-    }
-   
-    
-    footer {
-      font-size: 20px;
-      font-weight: bold;
-    }
+
    
     
