@@ -1,108 +1,32 @@
 * {
   box-sizing: border-box;
   }
-    head {
-      background-color: #ffffff;
-      text-align: center;
-      padding: 20px;
-
-    }
-    Body {
-      font-family: 'Oswald', sans-serif;
-      text-align: center;
-      line-height: 1.5;
-      background-image: url(../img/background.png); 
-      background-position: center;
-      background-repeat: repeat;
-    }  
-
-
-    .Name {
-     
-    }
-    .AboutMe {
-      margin: auto;
-      padding: 20px px 40px;
-      max-width: 500px;
-      text-align: center;
-      background: rgb(212, 208, 208);
-      font-size: 20px;
-      border-radius: 6px
-    
-    }
-    .JobExperience {
-      margin: auto;
-      padding: 20px 40px 40px;
-      max-width: 500px;
-      text-align: center;
-      background: #fff;
-      
-      border-radius: 6px
-     
-
-    }
-    .Tech {
-      float: left;
-      width: 33.33%;
-      padding: 15px;
-
-    }
-    .Technician {
-
-    }
-    .Projects {
-      margin: auto;
-      padding: 20px 40px 40px;
-      max-width: 500px;
-      text-align: center;
-      background: #fff;
-      
-      border-radius: 6px
-
-    }
-    .Netherizer {
-
-    }
-    .Neat {
-
-    }
-    .SQL {
-
-    }
-    h1 {
-      font-weight: bold;
-      color: #000000;
-      font-size: 95px;
-      text-shadow: -5px 5px 0 #aaa;
-      margin: 40px 60px;
-    }
-    h2 {
-      font-weight: bolder;
-      text-align: center;
-      color: #060607;
-      font-size: 45px;
-      text-shadow: -5px 5px 0 #aaa;
-      margin: 5px 5px;
-    }
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
   
-    h3 { 
-      font-family: 'sans-serif;'
-      font-weight: bolder;
-      font-size: 30px; 
-      color: #030303;
-      margin: 5px;
-      display: grid;
-      grid-template-columns: auto auto auto;
-    }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
   
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin:auto;
-      
-    }
-    
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
 
-   
-    
+  .Main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
