@@ -32,32 +32,4 @@
     font-family: sans;
   }
 
-  .Name {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .AboutMe {
-    box-sizing: border-box;
-    display: flex;
-    padding: 16px;
-    text-align: left;
-    
-  }
-
-  .JobExperience {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .Tech {}
-
-  .Projects {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .Netherizer {}
-
-  .Neat {}
-
-  .SQL {}
-
   
