@@ -1,35 +1,128 @@
 * {
   box-sizing: border-box;
   }
+  
+
+
+
+
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(18, 103, 130);
     overflow-x: hidden;
-    padding-top: 20px;
+    
   }
   
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 5px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #d36c17;
     display: block;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-family: 'Press Start 2P', cursive;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #5a89c5;
+    
   }
+
+
 
   .Main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 250px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 50px;
-    font-family: sans;
+   
+    
+  }
+h1{
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  color: #d36c17
+  letter-spacing: -3px;
+  
+}
+
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: rgb(53, 53, 53);
+    font-size: 32px;
+
   }
 
-  
+  h3 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(53, 53, 53);
+    font-size: 32px;
+  }
+
+  p{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: 24px;
+    
+ 
+   
+  }
+
+  li{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: 24px;
+  }
+
+  .Name {
+   text-align: center;
+   padding-top: 200px;
+   color: #d36c17
+   
+  }
+
+  .AboutMe {
+    width: 1200px;
+    height: 750px;
+    padding: 50px;
+    border-bottom: 1px solid rgb(87, 85, 85);
+    box-sizing: border-box;
+    padding-left: 400px;
+ 
+ 
+  }
+
+  .JobExperience {
+    width: 1200px;
+    height: 800px;
+    padding: 50px;
+    border-bottom: 1px solid rgb(87, 85, 85);
+    box-sizing: border-box;
+ 
+  }
+
+  .Skills {
+    width: 1200px;
+    height: 900px;
+    padding: 50px;
+    border-bottom: 1px solid rgb(87, 85, 85);
+    box-sizing: border-box;
+ 
+  }
+
+  .Projects {
+    width: 1200px;
+    height: 900px;
+    padding: 50px;
+    border-bottom: 1px solid rgb(87, 85, 85);
+    box-sizing: border-box;
+ 
+  }
+
