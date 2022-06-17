@@ -2,10 +2,6 @@
   box-sizing: border-box;
   }
   
-
-
-
-
   .sidenav {
     height: 100%;
     width: 300px;
@@ -13,116 +9,139 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(18, 103, 130);
+    background-color: rgb(0, 95, 115);
     overflow-x: hidden;
     
   }
   
+  
+
   .sidenav a {
     padding: 5px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: #d36c17;
+    font-size: 23px;
+    color: rgb(202, 103, 2);
     display: block;
     text-align: center;
+    
     position: relative;
-    top:40%;
+    top:28%;
     font-family: 'Press Start 2P', cursive;
+    
   }
   
   .sidenav a:hover {
-    color: #5a89c5;
+    color: rgb(10, 147, 150)
     
   }
 
+.navbar-brand {
 
+  
+
+}
 
   .Main {
     margin-left: 250px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-top: -30px;
+    margin-right: -8px;
     padding: 50px;
-   
-    
+    background-color: rgb(235, 218, 168)
   }
-h1{
-  font-family: 'Press Start 2P', cursive;
-  text-transform: uppercase;
-  color: #d36c17
-  letter-spacing: -3px;
   
-}
+  h1 {
+    font-size: 45px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(202, 103, 2);
+
+  }
 
   h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-transform: uppercase;
-    color: rgb(53, 53, 53);
-    font-size: 32px;
-
+    color: rgb(202, 103, 2);
   }
 
   h3 {
-    font-family: 'Oswald', sans-serif;
-    color: rgb(53, 53, 53);
-    font-size: 32px;
-  }
-
-  p{
-    font-family: 'Oswald', sans-serif;
-    color: rgb(71, 71, 71);
-    font-size: 24px;
+    font-family: 'VT323', monospace;
+    color: rgb(27, 26, 26);
+    font-size: 35px;
     
- 
-   
   }
 
-  li{
-    font-family: 'Oswald', sans-serif;
-    color: rgb(71, 71, 71);
-    font-size: 24px;
+  p {
+    font-family: 'VT323', monospace;
+    color: rgb(34, 33, 33);
+    font-size: 30px;
+    
+  }
+
+  li {
+    font-family: 'VT323', monospace;
+    color: rgb(43, 40, 40);
+    font-size: 22px;
+    
   }
 
   .Name {
-   text-align: center;
-   padding-top: 200px;
-   color: #d36c17
-   
+    text-align: center;
+    width: 800px;
+    border-top: 1px solid black;
+    margin-top: 250px;
+
+    
+    margin-left: 380px;
+ 
   }
 
   .AboutMe {
-    width: 1200px;
-    height: 750px;
-    padding: 50px;
-    border-bottom: 1px solid rgb(87, 85, 85);
-    box-sizing: border-box;
-    padding-left: 400px;
- 
- 
+    
+    width: 800px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 380px;
+    
+    
+  
   }
 
   .JobExperience {
-    width: 1200px;
-    height: 800px;
-    padding: 50px;
-    border-bottom: 1px solid rgb(87, 85, 85);
-    box-sizing: border-box;
- 
+   text-align: center;
+   font-size: 20px;
+   text-align: center;
+    width: 800px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 50px;
+  margin: 300px;
+  margin-left: 380px;
+  font-size: 25px;
+
   }
 
   .Skills {
-    width: 1200px;
-    height: 900px;
+    text-align: center;
+    width: 800px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 50px;
-    border-bottom: 1px solid rgb(87, 85, 85);
-    box-sizing: border-box;
- 
+    margin: 300px;
+    margin-left: 380px;
+    font-size: 25px;
+    list-style: none;
   }
 
   .Projects {
-    width: 1200px;
-    height: 900px;
+    font-size: 25px;
+    text-align: center;
+    width: 800px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 50px;
-    border-bottom: 1px solid rgb(87, 85, 85);
-    box-sizing: border-box;
+    margin: 300px;
+    margin-left: 380px;
  
   }
 
