@@ -89,7 +89,7 @@
     position:relative;
     width: 100%;
     text-align: left;
-    border-top: 1px solid black;
+
     margin-top: 250px;
 
     
@@ -103,16 +103,15 @@
     border-bottom: 1px solid black;
     margin-bottom: 20px;
     margin-left: 5px;
-    
-    
-  
+  }
+  .Underline{
+    border-bottom: 1px solid black;
   }
 
   .JobExperience {
   text-align: left;
   font-size: 20px;
   width: 100%;
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 5px;
   margin: 300px;
@@ -124,7 +123,6 @@
   .Skills {
     text-align: left;
     width: 100%;
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 5px;
     margin: 300px;
@@ -137,7 +135,6 @@
     font-size: 25px;
     text-align: left;
     width: 100%;
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 5px;
     margin: 300px;
