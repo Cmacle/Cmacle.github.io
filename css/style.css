@@ -4,12 +4,12 @@
   
   .sidenav {
     height: 100%;
-    width: 300px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(10, 10, 10);
     overflow-x: hidden;
     
   }
@@ -19,11 +19,10 @@
   .sidenav a {
     padding: 5px 8px 6px 16px;
     text-decoration: none;
-    font-size: 23px;
-    color: rgb(202, 2, 2);
+    font-size: 20px;
+    color: rgb(247, 240, 240);
     display: block;
     text-align: center;
-    
     position: relative;
     top:28%;
     font-family: 'Press Start 2P', cursive;
@@ -31,7 +30,7 @@
   }
   
   .sidenav a:hover {
-    color: rgb(221, 86, 32)
+    color: rgb(255, 238, 0)
     
   }
 
@@ -41,8 +40,11 @@
 
 }
 
+ 
+
+
   .Main {
-    margin-left: 250px; /* Same as the width of the sidenav */
+    margin-left: 200px; /* Same as the width of the sidenav */
     margin-top: -30px;
     margin-right: -8px;
     padding: 50px;
@@ -50,38 +52,41 @@
   }
   
   h1 {
-    font-size: 45px;
-    font-family: 'Press Start 2P', cursive;
+    
+    font-family: 'Libre Barcode 128 Text', cursive;
     text-transform: uppercase;
     text-align: left;
-    color: rgb(202, 2, 2);
+    color: rgb(0, 0, 0);
 
   }
 
   h2 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Libre Barcode 128 Text', cursive;
     text-transform: uppercase;
-    color: rgb(202, 2, 2);
+    color: rgb(0, 0, 0);
   }
 
   h3 {
-    font-family: 'VT323', monospace;
-    color: rgb(27, 26, 26);
-    font-size: 35px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: rgb(25, 25, 26);
+    font-size: 25px;
     
   }
 
+ 
+
   p {
-    font-family: 'VT323', monospace;
+    font-family: 'M PLUS 1 Code', sans-serif;
     color: rgb(34, 33, 33);
-    font-size: 30px;
+    font-size: 25px;
+    
     
   }
 
   li {
-    font-family: 'VT323', monospace;
+    font-family: 'M PLUS 1 Code', sans-serif;
     color: rgb(43, 40, 40);
-    font-size: 22px;
+    font-size: 25px;
     
   }
 
@@ -89,53 +94,51 @@
     position:relative;
     width: 100%;
     text-align: left;
-
     margin-top: 250px;
-
-    
     margin-left: 5px;
- 
+    font-size: 50px;
+    
   }
 
   .AboutMe {
     position:relative;
     width: 100%;
-    border-bottom: 1px solid black;
+    
     margin-bottom: 20px;
     margin-left: 5px;
   }
   .Underline{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(46, 46, 41)
   }
 
   .JobExperience {
   text-align: left;
-  font-size: 20px;
+  font-size: 50px;
   width: 100%;
-  border-bottom: 1px solid black;
+  
   padding: 5px;
-  margin: 300px;
+  margin: 359px;
   margin-left: 5px;
-  font-size: 25px;
+  
 
   }
 
   .Skills {
     text-align: left;
     width: 100%;
-    border-bottom: 1px solid black;
+  
     padding: 5px;
-    margin: 300px;
+    margin: 400px;
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 50px;
     list-style: none;
   }
 
   .Projects {
-    font-size: 25px;
+    font-size: 50px;
     text-align: left;
     width: 100%;
-    border-bottom: 1px solid black;
+    
     padding: 5px;
     margin: 300px;
     margin-left: 5px;
