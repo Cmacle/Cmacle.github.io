@@ -2,12 +2,12 @@
   box-sizing: border-box;
   }
 
-  
+
    
   
   .sidenav {
     height: 100%;
-    width: 250px;
+    width: 190x;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -17,15 +17,15 @@
   }
   
   .sidenav a {
-    padding: 5px 8px 6px 16px;
+    padding: 5px 10px 5px 10px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(247, 240, 240);
     display: block;
     text-align: center;
     position: relative;
-    top:28%;
-    font-family: 'Turret Road', cursive; 
+    top:30%;
+    font-family: 'Aldrich', sans-serif;
   }
   
   .sidenav a:hover {
@@ -33,7 +33,7 @@
   }
 
   .Main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 190px; /* Same as the width of the sidenav */
     margin-top: -30px;
     margin-right: -8px;
     padding: 50px;
@@ -55,15 +55,16 @@
   }
 
   h3 {
-    font-family: 'Turret Road', cursive;
+    font-family: 'Saira Extra Condensed', sans-serif;
     color: rgb(25, 25, 26);
     font-size: 25px;
+    
   }
-
+  
  
 
   p {
-    font-family: 'Turret Road', cursive;
+    font-family: 'Saira Extra Condensed', sans-serif;
     color: rgb(34, 33, 33);
     font-size: 25px;
     
@@ -71,7 +72,7 @@
   }
 
   li {
-    font-family: 'Turret Road', cursive;
+    font-family: 'Saira Extra Condensed', sans-serif;
     color: rgb(43, 40, 40);
     font-size: 25px; 
   }
@@ -94,6 +95,7 @@
 
   .Underline{
     border-bottom: 2px solid rgb(46, 46, 41)
+    
   }
 
   .JobExperience {
@@ -114,10 +116,18 @@
     font-size: 50px;
     list-style: none;
   }
+  .SkillsList {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: rgb(25, 25, 26);
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+  }
 
   .Projects {
+    
     font-size: 50px;
-    width: 100%;
+    width: 55%;
     padding: 5px;
     margin: 250px;
     margin-left: 5px;
@@ -130,7 +140,7 @@
     font-size: 20px;
     position: relative;
     padding: 10px;
-    font-family: 'Turret Road', cursive;;
+    font-family: 'Turret Road', cursive;
   }
   a.button.one:before, a.button.one:after{
     content: '';
@@ -157,8 +167,41 @@
     transition: all 0.3s ease;
   }
 
-
-
-
-
-
+  
+  
+  
+  
+  
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 105px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+  }
