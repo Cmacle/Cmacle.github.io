@@ -32,6 +32,14 @@
     color: rgb(255, 153, 0) 
   }
 
+  .Icon {
+    float:left;
+    margin-left:0px;
+    margin-top:130px;
+    padding-right:10px;
+  }
+
+
   .Main {
     margin-left: 190px; /* Same as the width of the sidenav */
     margin-top: -30px;
